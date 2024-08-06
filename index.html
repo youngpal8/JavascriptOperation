@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Check</title>
+</head>
+<body>
+    <form id="subscriptionForm">
+        <input type="checkbox" name="subscribe" id="myCheckBox">
+        <label for="myCheckBox">Subscribe</label>
+        <br><br>
+        <input type="radio" name="card" id="visaBtn" value="Visa">
+        <label for="visaBtn">Visa</label>
+        <br>
+        <input type="radio" name="card" id="masterCardBtn" value="MasterCard">
+        <label for="masterCardBtn">MasterCard</label>
+        <br>
+        <input type="radio" name="card" id="payPalBtn" value="PayPal">
+        <label for="payPalBtn">PayPal</label>
+        <br><br>
+        <button id="mySubmit" type="submit">Submit</button>
+    </form>
+    <p id="subResult"></p>
+    <p id="paymentResult"></p>
+    <script src="script/CheckBox.js"></script>
+</body>
+</html>
