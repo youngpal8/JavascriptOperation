@@ -1,17 +1,17 @@
 // script/ternary.js
 
 // 1. Adult Check
-let age = 20;
-let adultCheck = age <= 18 ? "Adult" : "Minor";
+let age = 10;
+let adultCheck = age <= 18 ? "Minor" : "Adult";
 document.getElementById("adultCheck").textContent = `Adult Check: ${adultCheck}`;
 
 // 2. Grade Classification
 let score = 45;
-let gradeClassification = score <= 50 ? "Pass" : "Fail";
+let gradeClassification = score <= 50 ? "Fail" : "Pass";
 document.getElementById("gradeClassification").textContent = `Grade Classification: ${gradeClassification}`;
 
 // 3. Voting Eligibility
-let votingEligibility = age <= 18 ? "Eligible" : "Not eligible";
+let votingEligibility = age <= 18 ? "Not eligible" : "Eligible";
 document.getElementById("votingEligibility").innerText = `Voting Eligibility: ${votingEligibility}`;
 
 // 4. Temperature Check
@@ -21,7 +21,7 @@ document.getElementById("temperatureCheck").innerText = `Temperature Check: ${te
 
 // 5. Check String Length
 let str = "Hello!";
-let stringLengthCheck = str.length > 5 ? "Long" : "Short";
+let stringLengthCheck = str.length >= 5 ? "Long" : "Short";
 document.getElementById("stringLengthCheck").innerText = `String Length Check: ${stringLengthCheck}`;
 
 // 6. Day or Night
