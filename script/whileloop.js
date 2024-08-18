@@ -12,9 +12,9 @@
 // console.log(username);
 
 
-let loggedIn = false;
-let username;
-let password;
+// let loggedIn = false;
+// let username;
+// let password;
 
 // while (!loggedIn) {
 //     username = window.prompt("Enter your Username");

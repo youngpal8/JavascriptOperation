@@ -6,12 +6,13 @@ let adultCheck = age <= 18 ? "Minor" : "Adult";
 document.getElementById("adultCheck").textContent = `Adult Check: ${adultCheck}`;
 
 // 2. Grade Classification
-let score = 45;
+let score = 95;
 let gradeClassification = score <= 50 ? "Fail" : "Pass";
 document.getElementById("gradeClassification").textContent = `Grade Classification: ${gradeClassification}`;
 
 // 3. Voting Eligibility
-let votingEligibility = age <= 18 ? "Not eligible" : "Eligible";
+let ages = 21;
+let votingEligibility = ages <= 18 ? "Not eligible" : "Eligible";
 document.getElementById("votingEligibility").innerText = `Voting Eligibility: ${votingEligibility}`;
 
 // 4. Temperature Check
@@ -30,6 +31,6 @@ let dayOrNight = (hour >= 6 && hour <= 18) ? "Day" : "Night";
 document.getElementById("dayOrNight").innerText = `Day or Night: ${dayOrNight}`;
 
 // 7. Basic Ternary Operation
-let x = 15;
+let x = 52;
 let basicTernary = x > 10 ? "Greater" : "Smaller or equal";
 document.getElementById("basicTernary").innerText = `Basic Ternary Operation: ${basicTernary}`;
